@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tutorial Form Horizontal</title>
+	<!-- Bagian css -->
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/ilmudetil.css">
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="index.html">
+			Pusat Ilmu Secara Detil</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav navbar-left">
+				<li class="clr1 active"><a href="index.html">Home</a></li>
+				<li class="clr2"><a href="">Bootstrap</a></li>
+				<li class="clr3"><a href="">PHP</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+</br></br></br></br>
+<!--- Bagian Judul-->	
+<div class ="container">
+	<div class="row">
+			<div class="col-md-12">
+			<h4>Form Registration </h4>
+			</div>
+	</div>
+</div>
+<!--- Akhir Bagian Judul-->	
+	
+<!-- Bagian FORM 1-->
+<div class ="container">
+	<div class="row">
+		<div class="col-md-6" style="background-color:#f0f7f8;padding-top:15px;padding-bottom:10px">
+			<form class="form-horizontal">
+				<div class="form-group">
+					<label for="inputFName" class="control-label col-md-3">First Name</label>
+						<div class="col-md-8">
+							<input type="text" class="form-control" id="inputFName" placeholder="First Name">
+						</div>
+				</div>
+				<div class="form-group">
+					<label for="inputLName" class="control-label col-md-3">Last Name</label>
+						<div class="col-md-8">
+							<input type="text" class="form-control" id="inputLName" placeholder="Last Name">
+						</div>
+				</div>
+				<div class = "form-group">
+					<label for = "inputGender" class="control-label col-md-3" >Sex</label>
+					<div class="col-md-4">
+						<select class = "form-control">
+							<option>Male</option>
+							<option>Female</option>
+						</select>
+					</div>
+				</div>
+				<div class = "form-group">
+					<label for = "checkStatus" class="control-label col-md-3">Marital Status</label>
+					<div class ="col-md-2">
+						<div class="radio">
+							<label><input type="radio" name="optradio1">Single</label>
+						</div>
+					</div>
+					<div class ="col-md-2">
+						<div class="radio">
+							<label><input type="radio" name="optradio2">Married</label>
+						</div>
+					</div>
+					<div class ="col-md-2">
+						<div class="radio">
+							<label><input type="radio" name="optradio3">Divorce</label>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-offset-3 col-md-6">
+						<button type="submit" class="btn btn-primary">Sign Up</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- Akhir dari FORM 1-->
+</body>
+</html>
